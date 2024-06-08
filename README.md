@@ -15,6 +15,9 @@ The prioritization of the elevator is based on the floor the passenger is on and
 
 
 ## Assumptions
+1. When the elevator starts running there are no passengers in them
+2. Whenever the elevator stops at a given floor 1 passenger gets in
+
 
 
 
