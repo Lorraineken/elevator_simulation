@@ -20,6 +20,9 @@ The prioritization of the elevator is based on the floor the passenger is on and
 
 ## Design Choice
 Threading is used to simulate concurrent lift requests. Multiple users might press the lift buttons simultaneously which will require the system to handle these requests at the same time. Threading allows replication of the concurrent activity by generation threads for individual requests.
+Below is a sample executed code.
+
+     ![Sample code](./screens/screenshot1.png?raw=true "sample usecase scenario")
 
 
 ## Pre-requisites
