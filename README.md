@@ -16,9 +16,10 @@ The prioritization of the elevator is based on the floor the passenger is on and
 
 ## Assumptions
 1. When the elevator starts running there are no passengers in them
-2. Whenever the elevator stops at a given floor 1 passenger gets in
+2. Whenever the elevator stops at a given floor 1 passenger gets in ... Simulation of passengers alighting from the elevators is yet to be done
 
-
+## Design Choice
+Threading is used to simulate concurrent lift requests. Multiple users might press the lift buttons simultaneously which will require the system to handle these requests at the same time. Threading allows replication of the concurrent activity by generation threads for individual requests.
 
 
 ## Pre-requisites
@@ -52,9 +53,11 @@ To use this repo on your machine requires some simple steps
 
 
 ## Running the application
+To run the application on the terminal 
 
+    python3 elevator_simulation.py
 
-
+The elevator_simulation.py file contains a use case scenario
 
 
 # Authors

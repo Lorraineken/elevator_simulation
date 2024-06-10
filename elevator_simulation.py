@@ -2,7 +2,7 @@ import time
 from threading import Thread
 from building import Building
 
-# Example usage of the classes defined above
+# Example usecase scenario
 if __name__ == "__main__":
     building = Building()  # building instance
 
